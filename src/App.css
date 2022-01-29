@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  
+}
+
+body{
+  background-image:
+  linear-gradient( rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+  url("https://i.stack.imgur.com/p9mUO.jpg");
 }
 
 .App-logo {
@@ -35,4 +42,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600px;
+  color: honeydew;
+}
+
+.counter{
+  padding-bottom:25px;
+  width: 200px;
+  text-align: center;
+border: thick double #32a1ce;
+margin-left: 45%;
+}
+h2{
+  font-size: 25px;
+  font-weight: 700px;
+  color:rgba(0,0,255,0.5);
+ 
+}
+
+.counter  button{
+  width: 70px;
+  height: 50px;
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+  inset -2px -2px 3px rgba(0, 0, 0, .6);
+  color: honeydew;
+  border: hotpink;
+  border-radius: 20px;
+  background-color: gray;
+  text-shadow: 1px 1px 1px #000;
+  border: 0;
+  line-height: 2.5;
+  font-size: 1rem;
+ 
+}
+
+img{
+  width: 300px;
+  height: 300px;
+}
+
+
+.buttonHide {
+  /* background-image:
+  linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+  url("https://mdn.mozillademos.org/files/7693/catfront.png"); */
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration:line-through;
+  color:#fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonShow {
+  /* background-image:
+  linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+  url("https://mdn.mozillademos.org/files/7693/catfront.png"); */
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration:underline;
+  color:#000;
+  background-color: yellow;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
